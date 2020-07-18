@@ -15,6 +15,7 @@
 		D3EDB14324C1C244003ED341 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D3EDB14124C1C244003ED341 /* LaunchScreen.storyboard */; };
 		D3EDB14E24C1C245003ED341 /* MyCameraTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3EDB14D24C1C245003ED341 /* MyCameraTests.swift */; };
 		D3EDB15924C1C245003ED341 /* MyCameraUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3EDB15824C1C245003ED341 /* MyCameraUITests.swift */; };
+		D3EDB16724C2D180003ED341 /* EffectViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3EDB16624C2D180003ED341 /* EffectViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		D3EDB15424C1C245003ED341 /* MyCameraUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MyCameraUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D3EDB15824C1C245003ED341 /* MyCameraUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyCameraUITests.swift; sourceTree = "<group>"; };
 		D3EDB15A24C1C245003ED341 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D3EDB16624C2D180003ED341 /* EffectViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EffectViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +105,7 @@
 				D3EDB13824C1C238003ED341 /* SceneDelegate.swift */,
 				D3EDB13A24C1C238003ED341 /* ViewController.swift */,
 				D3EDB13C24C1C238003ED341 /* Main.storyboard */,
+				D3EDB16624C2D180003ED341 /* EffectViewController.swift */,
 				D3EDB13F24C1C244003ED341 /* Assets.xcassets */,
 				D3EDB14124C1C244003ED341 /* LaunchScreen.storyboard */,
 				D3EDB14424C1C244003ED341 /* Info.plist */,
@@ -260,6 +263,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D3EDB13B24C1C238003ED341 /* ViewController.swift in Sources */,
+				D3EDB16724C2D180003ED341 /* EffectViewController.swift in Sources */,
 				D3EDB13724C1C238003ED341 /* AppDelegate.swift in Sources */,
 				D3EDB13924C1C238003ED341 /* SceneDelegate.swift in Sources */,
 			);
@@ -435,6 +439,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = GQ7W4PWBP6;
 				INFOPLIST_FILE = MyCamera/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -452,6 +457,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = GQ7W4PWBP6;
 				INFOPLIST_FILE = MyCamera/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
